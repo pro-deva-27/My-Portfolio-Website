@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debmalya Chakraborty - Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color:rgb(54, 54, 212);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height:80px;
+            background-color:black;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin:0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        nav ul li a:hover{
+            color:rgb(154, 154, 165);
+            font-size:1.02rem;
+        }
+        main hr{
+           border: 0;
+           background: #fafaff;
+           height: 1.2px;
+           margin: 60px 84px;
+       }
+        .left{
+            font-size:1.5rem;
+        }
+        .firstSection{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+
+        }
+        .firstSection > div{
+            width:30%;
+        }
+        .leftSection{
+            font-size:2rem;
+
+        }
+        .rightSection img{
+            width:80%;
+        }
+        .name{
+            color:rgb(245, 76, 76);
+        }
+        .text-grey{
+            color:grey;
+        }
+        .degree{
+            color:chocolate;
+        }
+        .college{
+            color:cornflowerblue;
+        }
+        #element{
+            color:chocolate;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin:auto;
+            height:80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection .box{
+            background-color: white;
+            width:78.7vw;
+            height:2px;
+            margin:56px 0;
+            display:flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+        .image-top{
+            width:23px;
+            position: relative;
+            top:-32px;
+            left:-9px;
+        }
+        .vertical-title{
+            position:relative;
+            top:75px;
+            width:150px;
+            font-size: 14px;
+        }
+        .vertical-desc{
+            position:relative;
+            top:86px;
+            color:grey;
+            width:150px;
+            font-size:9px;
+        }
+        footer{
+            background-color: rgb(26, 17, 26);
+            height:300px;
+        }
+        .footer-first{
+            text-align: center;
+            font-size:20px;
+        }
+        .footer-second{
+            margin-top:50px;
+            margin-left:660px;
+        }
+        #fname{
+            padding-right:50px;
+            margin-bottom:18px;
+        }
+        #lname{
+            padding-right:50px;
+        }
+        #submit-button{
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-left:14px;
+            padding-right:14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">DEBMALYA CHAKRABORTY</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SKILLS</a></li>
+                    <li><a href="">PROJECTS</a></li>
+                    <li><a href="">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello Everyone, My Name is <span class="name">Debmalya Chakraborty</span>
+                <div>and I am a student of <span class="degree">CSE</span></div>
+                <div>at <span class="college">RCCIIT</span> and also a</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="avatar.png">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>MY WORK EXPERIENCES</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="singer.png">
+                    <div class="vertical-title">
+                        Classical Singer (2010-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Classical music, with its rich history and timeless compositions, 
+                        has always held a special place in my heart. 
+                        From the elegant symphonies of Mozart to the profound depth of Beethoven's sonatas, this genre captivates me like no other. 
+                        My passion for classical music is not merely a fleeting interest; 
+                        it is a deep-rooted love affair that has shaped my life and touched my soul in countless ways.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="tabla-player.png">
+                    <div class="vertical-title">
+                        Tabla Player (2012-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        The rhythmic beats reverberate through my veins, awakening a deep sense of joy and connection. 
+                        The tabla, an enchanting instrument from the rich heritage of Indian classical music, 
+                        has become more than just an instrument to me—it is the vessel through which my passion flows and my soul finds expression.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="guitar-player.png">
+                    <div class="vertical-title">
+                        Guitar Player (2022-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Ever since I first laid my hands on a guitar, I knew I had discovered my true passion. 
+                        The feeling of the smooth wooden neck beneath my fingertips, the vibrant vibrations that resonate through the body, and the melodic sound that emerges with every strum—it all captivated me from the very beginning. 
+                        The guitar became more than just an instrument; it became an extension of myself, a medium through which I could express my deepest emotions and connect with others on a profound level.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pianoist.png">
+                    <div class="vertical-title">
+                        Pianoist (2020-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        From the first moment I laid my hands on the smooth keys of a piano, 
+                        I knew that I had discovered a profound and enduring passion. 
+                        The instrument's melodic allure, its ability to convey emotions, 
+                        and the way it allows me to express my innermost thoughts and feelings captivate me like nothing else. 
+                        The piano has become more than a mere instrument to me—it is a conduit for my soul.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="coder.png">
+                    <div class="vertical-title">
+                        Coder (2020-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Coding is not merely a skill or a profession for me; 
+                        it is a deep-rooted passion that ignites my creativity and fuels my drive for continuous learning. 
+                        From the moment I started exploring the world of programming, 
+                        I was captivated by its limitless potential and the ability to bring ideas to life through lines of code.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="content-creator.png">
+                    <div class="vertical-title">
+                        Content Creator (2021-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Music has always held a special place in my heart. 
+                        From an early age, I was captivated by its power to evoke emotions, 
+                        tell stories, and create connections between people. 
+                        As I grew older, I realized that my passion for music extended beyond just listening and appreciating it. 
+                         I discovered a burning desire to share my love for music with others and to contribute to the ever-growing music community. 
+                        This led me to delve into the exciting world of content creation centered around music.
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-first">
+            BOOK YOUR SLOT
+        </div>
+        <div class="footer-second">
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+                <br><br>
+                <input type="submit" value="SUBMIT" id="submit-button">
+            </form>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Musician', 'Content Creator','Coder'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
